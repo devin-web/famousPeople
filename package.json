@@ -1,0 +1,22 @@
+{
+  "name": "pg-sql-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "knexClient.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devin-web/famousPeople.git"
+  },
+  "author": "Devin Murnane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devin-web/famousPeople/issues"
+  },
+  "homepage": "https://github.com/devin-web/famousPeople#readme",
+  "dependencies": {
+    "knex": "^0.12.2"
+  }
+}
