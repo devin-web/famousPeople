@@ -2,9 +2,9 @@
 exports.up = function(knex, Promise) {
   return Promise.all([
     knex.schema.createTable('milestones', function(table){
-      table.increments( 'id' ),
-      table.string( 'desciption' ),
-      table.date( 'date_achieved' )
+      table.increments( 'id' );
+      table.string( 'desciption' );
+      table.date( 'date_achieved' );
     })
   ])
 };
